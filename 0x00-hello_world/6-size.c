@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+/**
+ * main -prints sizes of variables
+ * Return - o if successful
+ */
 int main(void)
 {
 	char i;
