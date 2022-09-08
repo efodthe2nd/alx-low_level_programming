@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
+/* function main prints out string */
 int main(void)
 {
 	char str2[54];
