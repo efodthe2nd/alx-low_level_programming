@@ -2,7 +2,7 @@
 
 /**
  * main -prints sizes of variables
- * Return - o if successful
+ * Return - 0 if successful.
  */
 int main(void)
 {
