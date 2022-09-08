@@ -2,7 +2,8 @@
 #include <string.h>
 
 /**
- *  function_main - prints out string 
+ *  main - prints out string
+ *  Return: 0 if success 
  */
 int main(void)
 {
