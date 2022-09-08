@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/** 
+/**
  * main prints string
  * return 0 if successful
  */
