@@ -8,15 +8,15 @@ int main(void)
 {
 	char i;
 	int c;
-	long d;
-	int e;
+	long int d;
+	long long int e;
 	float f;
 	char b[] = "byte(s)";
 
-	printf("Size of a char: %lu %s\n", sizeof(i), b);
-	printf("Size of an int: %lu %s\n", sizeof(c), b);
-	printf("Size of a long int: %lu %s\n", (long)sizeof(d), b);
-	printf("Size of a long long int: %lu %s\n", (unsigned long)sizeof(e), b);
-	printf("Size of a float: %lu %s\n", sizeof(f), b);
+	printf("Size of a char: %d %s\n", sizeof(i), b);
+	printf("Size of an int: %d %s\n", sizeof(c), b);
+	printf("Size of a long int: %d %s\n", (long)sizeof(d), b);
+	printf("Size of a long long int: %d %s\n", (unsigned long)sizeof(e), b);
+	printf("Size of a float: %d %s\n", sizeof(f), b);
 	return (0);
 }
