@@ -5,7 +5,7 @@
  * Return: 0 if success
  */
 
-int main()
+int main(void)
 {
 	int ch = 122;
 
