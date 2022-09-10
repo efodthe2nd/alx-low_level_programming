@@ -21,8 +21,8 @@ int main(void)
 				if (!((fd == '8') && (sd == '9')))
 				{
 					putchar(',');
-				}
 					putchar(' ');
+				}
 			}
 		}
 	}
