@@ -19,11 +19,14 @@ int main(void)
 			{
 				if (!(fd == sd) && !(sd == td) && !(fd > sd) && !(sd > td))
 				{
-					putchar(' ');
+					
 					putchar(fd);
 					putchar(sd);
 					putchar(td);
-					putchar(',');
+					if (!((fd == '7') && (sd == '8') && (td == '9')))
+					{	putchar(',');
+						putchar(' ');
+					}
 				}
 			}
 		}
