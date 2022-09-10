@@ -16,10 +16,13 @@ int main(void)
 		{
 			if ((fd != sd) && !(fd > sd))
 			{
-				putchar(' ');
 				putchar(fd);
 				putchar(sd);
-				putchar(',');
+				if (!((fd == '8') && (sd == '9')))
+				{
+					putchar(',');
+				}
+					putchar(' ');
 			}
 		}
 	}
