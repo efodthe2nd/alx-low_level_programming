@@ -19,7 +19,7 @@ int main(void)
 			{
 				if (!(fd == sd) && !(sd == td) && !(fd > sd) && !(sd > td))
 				{
-					
+
 					putchar(fd);
 					putchar(sd);
 					putchar(td);
