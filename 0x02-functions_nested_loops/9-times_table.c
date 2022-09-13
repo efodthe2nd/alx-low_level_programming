@@ -10,7 +10,7 @@ void times_table(void)
 {
 	int one;
 	int two;
-	int mul.
+	int mul;
 
 	for (one = 0; one <= 9; one++)
 	{
@@ -24,6 +24,6 @@ void times_table(void)
 			_putchar(mul + '0');
 			_putchar(',');
 		}
-		putchar('\n');
+		_putchar('\n');
 	}
 }
