@@ -2,8 +2,9 @@
 
 /**
  * _islower - main entry point
- * @c - character checked
- * Return: 1 if success
+ * @c: character checked
+ *
+ * Return: 1 if success. 0 otherwise
  */
 
 int _islower(int c)
