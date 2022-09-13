@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * main- main entry point
+ * _islower - main entry point
+ * @c - character checked
  * Return: 1 if success
  */
 
