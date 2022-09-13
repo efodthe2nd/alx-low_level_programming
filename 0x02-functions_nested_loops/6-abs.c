@@ -7,12 +7,12 @@
  * Return: 0 if success.
  */
 
-int _abs(int)
+int _abs(int n)
 {
-	if (int < 0)
+	if (n < 0)
 	{
-		int = int * -1;
-		return (int);
+		n = n * -1;
+		return (n);
 	}
-	return (int);
+	return (n);
 }
