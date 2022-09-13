@@ -1,8 +1,9 @@
-#ifndef MAIN_H
-#define MAIN_H
 
-#include<stdio.h>
 
-int _putchar(char c);
+#include <unistd.h>
 
-#endif /*  MAIN_H */  
+int _putchar(char c)
+{
+	return (write(0, &c, 1));
+}
+  
