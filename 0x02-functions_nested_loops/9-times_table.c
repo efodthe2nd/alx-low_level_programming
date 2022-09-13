@@ -27,7 +27,8 @@ void times_table(void)
 				_putchar((mul / 10) + '0');
 				_putchar((mul % 10) + '0');
 			}
-			_putchar(',');
+			if (two != 9)
+				_putchar(',');
 		}
 		_putchar('\n');
 	}
