@@ -1,23 +1,25 @@
 #include <stdio.h>
 
-/**
- * jack_bauer - annohyance
- * Returns: 0 if success
- */
-
-int main(void)
+int main()
 {
-	int hr;
-	int min;
-
-	for (hr = 0; hr < 10; hr++)
+	int n = 102;
+	if (n <= 98)
 	{
-		for (min = 0; min < 10; min++)
+		while (n <= 98)
 		{
-			printf("%d", hr * min);
-			
+			printf("%d, ", n);
+			n++;
 		}
-		printf("\n");
 	}
+	if (n >= 98)
+	{
+		while (n >= 98)
+		{
+			printf("%d, ", n);
+			n--;
+		}
+	}
+
 	return (0);
+	
 }
