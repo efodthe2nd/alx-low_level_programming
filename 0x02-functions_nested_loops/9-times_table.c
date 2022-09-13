@@ -17,7 +17,7 @@ void times_table(void)
 		for (two = 0; two <= 9; two++)
 		{
 			mul = one * two;
-			if ((mul != 0) && (mul <= 9))
+			if ((two != 0) && (mul <= 9))
 			{	_putchar(' ');
 				_putchar(' ');
 			}
