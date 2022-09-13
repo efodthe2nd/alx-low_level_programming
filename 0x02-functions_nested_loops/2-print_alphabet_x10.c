@@ -2,7 +2,7 @@
 
 /**
  * print_alphabet_x10 - main entry function
- * 
+ *
  */
 
 void print_alphabet_x10(void)
