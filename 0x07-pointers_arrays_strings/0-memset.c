@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * *_memset - fills n bytes of memory
- * @*s: pointer variable
+ * _memset - fills n bytes of memory
+ * @s: pointer variable
  * @b: constant byte variable
  * @n: number of bytes of memory
  *
