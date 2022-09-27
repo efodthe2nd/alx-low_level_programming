@@ -13,7 +13,7 @@ int main(void)
 	char *f = "oleh";
 	char *t;
 
-	t = _strpbrk(s, f);
+	t = _strstr(s, f);
 	printf("%s\n", t);
 	return (0);
 }
