@@ -7,9 +7,9 @@
  *  main - prints a random number
  *  Return: 0 if success
  */
-int main(void)
+
+void positive_or_negative(int n)
 {
-	int n = 0;
 
 	/*srand(time(0));
 	n = rand() - RAND_MAX / 2;
@@ -24,6 +24,4 @@ int main(void)
 	{
 		printf("%d is zero\n", n);
 	}
-
-	return (0);
 }
