@@ -4,7 +4,7 @@
 /**
  * main - prints argc count
  *@argc: argument count
- @argv: argument vector
+ *@argv: argument vector
  * Return: 0 if succes
  */
 
