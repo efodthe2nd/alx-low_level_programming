@@ -1,6 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 /**
  * main - prints addition of two numbers
@@ -10,7 +11,7 @@
  * Return: 0 if success
  */
 
-int main(int argc; char *argv[])
+int main(int argc, char *argv[])
 {
 	int i;
 	unsigned int k, sum = 0;
