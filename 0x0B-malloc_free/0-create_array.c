@@ -4,7 +4,7 @@
 /**
 *create_array - creates array of char
 *@size: size of memory allocated
-*@char: character to be initialize
+*@c: character to be initialize
 *
 *Return: returns a char
 */
@@ -21,7 +21,7 @@ char *create_array(unsigned int size, char c)
 
 	if (ar == NULL)
 		return (NULL);
-	
+
 	for (i = 0; i < size; i++)
 	{
 		ar[i] = c;
