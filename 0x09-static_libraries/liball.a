@@ -1,0 +1,58 @@
+!<arch>
+0-isupper.c/    0           0     0     644     43        `
+#include "main.h"
+
+int _isupper(int c)
+{
+}
+
+100-atoi.c/     0           0     0     644     42        `
+#include "main.h"
+
+int _atoi(char *s)
+{
+}
+3-puts.c/       0           0     0     644     228       `
+#include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
+/**
+ * _puts - prints a string
+ * @str: string to be printed
+ */
+
+void _puts(char *str)
+{
+	int i = 0;
+
+	while (str[i])
+	{
+		_putchar(str[i]);
+		i++;
+	}
+	_putchar('\n');
+}
+_putchar.c/     0           0     0     644     234       `
+#include <unistd.h>
+
+/**
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
+ *
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set.
+ */
+
+int _putchar(char c)
+{
+	return (write(1, &c, 1));
+}
+main.c/         0           0     0     644     105       `
+#include "main.h"
+
+int main(void)
+{
+	_puts("\"At the end of the day\"\n\t - David Efod");
+	return (0);
+}
+
