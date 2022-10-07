@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * aray_range - range of array
+ * array_range - range of array
  * @min: small int
  * @max: big int
  *
