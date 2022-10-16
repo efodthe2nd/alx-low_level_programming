@@ -5,7 +5,7 @@
 /**
  * main - calls the operation function
  * @argc: number of times
- * @arv - array
+ * @argv: array
  *
  * Return: result
  */
