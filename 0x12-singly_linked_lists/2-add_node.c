@@ -26,7 +26,7 @@ list_t *add_node(list_t **head, const char *str)
 		}
 
 		new->str = strdup(str);
-		new->len = strlen(str);
+		new->len = _strlen(str);
 		new->next = *head;
 		*head = new;
 
@@ -34,4 +34,24 @@ list_t *add_node(list_t **head, const char *str)
 	}
 
 	return (0);
+}
+
+/**
+ * _strlen - prints length of string
+ * @s: const string to count
+ *
+ * Return: int count value
+ */
+
+int _strlen(const char *s)
+{
+	int c =0;
+
+	while (*s)
+	{
+		s++;
+		c++;
+	}
+
+	return (c);
 }
