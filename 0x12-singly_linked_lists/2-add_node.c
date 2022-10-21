@@ -3,30 +3,27 @@
 #include "lists.h"
 
 /**
- * add_node - adds new node to beginning
- * @head: node name
- * @str: string data
+ * add_node - Adds a new node
+ * @head: The original linked
+ * @str: The string to add
  *
- * Return: address of new element
+ * Return: The address of the new list
  */
 
 list_t *add_node(list_t **head, const char *str)
 {
 	list_t *temp;
 
-	if (head != NULL & str != NULL)
+	if (head != NULL && str != NULL)
 	{
 		temp = malloc(sizeof(list_t));
-
 		if (temp == NULL)
-		{
 			return (NULL);
-		}
 
 		temp->str = strdup(str);
 		temp->len = _strlen(str);
 		temp->next = *head;
-		
+
 		*head = temp;
 
 		return (temp);
@@ -36,15 +33,14 @@ list_t *add_node(list_t **head, const char *str)
 }
 
 /**
- * _strlen - prints length of string
- * @s: const string to count
+ * _strlen - Returns the length of a string
+ * @s: String to count
  *
- * Return: int count value
+ * Return: String length
  */
-
 int _strlen(const char *s)
 {
-	int c =0;
+	int c;
 
 	while (*s)
 	{
