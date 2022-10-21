@@ -8,7 +8,7 @@ section .text
   global_start
 
 section .data
-msg db 'Hello, Holberton',0xa ;our dear string
+msg db 'Hello, Holberton', 10 ;our dear string
 len equ $ -msg
 
 section .text
