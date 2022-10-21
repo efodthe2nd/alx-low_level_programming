@@ -14,11 +14,11 @@ int main(void)
 	list_t *head;
 	
 	head = NULL;
-	add_node(&head, "alexandro");
-	add_node(&head, "Asaia");
-	add_node(&head, "Augustin");
-	add_node(&head, "William");
-	add_node(&head, "Efod");
+	add_node_end(&head, "alexandro");
+	add_node_end(&head, "Asaia");
+	add_node_end(&head, "Augustin");
+	add_node_end(&head, "William");
+	add_node_end(&head, "Efod");
 	print_list(head);
 
 	return (0);
