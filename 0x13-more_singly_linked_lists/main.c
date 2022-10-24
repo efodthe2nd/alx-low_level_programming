@@ -15,6 +15,8 @@ int main(void)
 	add_nodeint_end(&head, 3);
 	n = print_listint(head);
 	printf(" -> %d elements\n", n);
+	free_listint(head);
+	head = NULL;
 
 	return (0);
 }

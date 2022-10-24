@@ -7,7 +7,7 @@
  * @head: node element
  * @n: int value of node elem
  *
- * Retun: address of new element
+ * Return: address of new element
  */
 
 listint_t *add_nodeint_end(listint_t **head, const int n)
@@ -16,7 +16,7 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
 
 	newNode = malloc(sizeof(listint_t));
 	lastNode = malloc(sizeof(listint_t));
-	 
+
 
 	if (newNode == NULL)
 		return (NULL);
