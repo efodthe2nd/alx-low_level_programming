@@ -15,8 +15,9 @@ int main(void)
 	add_nodeint_end(&head, 3);
 	n = print_listint(head);
 	printf(" -> %d elements\n", n);
-	free_listint(head);
-	free_listint2(&head);
+	n = pop_listint(&head);
+	printf("- %d\n", n);
+	print_listint(head);
 
 	printf("%p\n" , (void *)head);
 
