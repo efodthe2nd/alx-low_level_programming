@@ -6,13 +6,15 @@
 int main(void)
 {
 	listint_t *head;
+	int n;
 	
 	head = NULL;
-	add_nodeint(&head, 0);
-	add_nodeint(&head, 1);
-	add_nodeint(&head, 2);
-	add_nodeint(&head, 3);
-	print_listint(head);
+	add_nodeint_end(&head, 2);
+	add_nodeint_end(&head, 4);
+	add_nodeint_end(&head, 2);
+	add_nodeint_end(&head, 3);
+	n = print_listint(head);
+	printf(" -> %d elements\n", n);
 
 	return (0);
 }
