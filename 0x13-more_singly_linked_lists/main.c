@@ -15,10 +15,9 @@ int main(void)
 	add_nodeint_end(&head, 4);
 	add_nodeint_end(&head, 2);
 	add_nodeint_end(&head, 3);
+	insert_nodeint_at_index(&head, 3, 4096);
 	n = print_listint(head);
 	printf(" -> %d elements\n", n);
-	sum = sum_listint(head);
-	printf("sum = %d\n", sum);
 
 	return (0);
 }
