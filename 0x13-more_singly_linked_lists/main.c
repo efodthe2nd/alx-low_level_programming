@@ -16,7 +16,9 @@ int main(void)
 	n = print_listint(head);
 	printf(" -> %d elements\n", n);
 	free_listint(head);
-	head = NULL;
+	free_listint2(&head);
+
+	printf("%p\n" , (void *)head);
 
 	return (0);
 }
