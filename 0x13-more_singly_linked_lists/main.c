@@ -16,9 +16,6 @@ int main(void)
 	add_nodeint_end(&head, 3);
 	n = print_listint(head);
 	printf(" -> %d elements\n", n);
-	n = pop_listint(&head);
-	printf("- %d\n", n);
-	print_listint(head);
 	node = get_nodeint_at_index(head, 2);
 	printf("%d\n", node->n);
 
