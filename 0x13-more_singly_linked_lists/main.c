@@ -6,6 +6,7 @@
 int main(void)
 {
 	listint_t *head;
+	listint_t *node;
 	int n;
 	
 	head = NULL;
@@ -18,8 +19,8 @@ int main(void)
 	n = pop_listint(&head);
 	printf("- %d\n", n);
 	print_listint(head);
-
-	printf("%p\n" , (void *)head);
+	node = get_nodeint_at_index(head, 2);
+	printf("%d\n", node->n);
 
 	return (0);
 }
