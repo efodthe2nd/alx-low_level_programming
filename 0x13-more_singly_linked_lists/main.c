@@ -18,6 +18,8 @@ int main(void)
 	insert_nodeint_at_index(&head, 3, 4096);
 	n = print_listint(head);
 	printf(" -> %d elements\n", n);
+	reverse_listint(&head);
+	print_listint(head);
 
 	return (0);
 }
