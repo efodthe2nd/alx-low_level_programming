@@ -2,10 +2,10 @@
 #include "main.h"
 
 /**
- * print_binary - prints the binary representation
+ * print_binary - prints binary format
  * @n: argument int
  *
- * Return: the binary representation
+ * Return: binary format of int
  */
 
 void print_binary(unsigned long int n)
@@ -20,17 +20,16 @@ void print_binary(unsigned long int n)
 }
 
 /**
- * _divide - divide the integer
- * @n: argument
+ * _divide - divides the int
+ * @n: accepts int
  *
- * Return: returns the int
+ * Return: nothing
  */
 
 void _divide(unsigned long int n)
 {
 	if (n < 1)
 		return;
-
 	_divide(n >> 1);
 
 	if (n & 1)
