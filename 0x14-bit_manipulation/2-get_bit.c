@@ -29,6 +29,8 @@ int get_bit(unsigned long int n, unsigned int index)
 		c++;
 	}
 
-	if (c > index && c < 63)
-		return (-1);
+	if (index > c && index < 63)
+		return (0);
+
+	return (-1);
 }
