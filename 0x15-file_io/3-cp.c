@@ -69,7 +69,7 @@ void copy_file(const char *src, const char *dest)
 
 	if (close(tfd) == -1)
 	{
-		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", ofd);
+		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", tfd);
 		exit(100);
 	}
 }
