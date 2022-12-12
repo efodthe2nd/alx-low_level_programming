@@ -1,0 +1,7 @@
+#!/bin/bash
+PS1='${PWD##*/}$'
+alias ga='git add'
+alias gc='git commit -m'
+alias gp='git push origin master'
+eval $(ssh-agent)
+$(ssh-add)
