@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "main.h"
+#include <math.h>
 
 int add(int a, int b)
 {
