@@ -1,16 +1,14 @@
 #!/usr/bin/python3
 """
 5-island_perimeter module
-
 contains a function that returns perimeter of an island
 """
 
 
 def island_perimeter(grid):
     """computers perimeter of an island described in a grid
-
     Args:
-    grid(list): list of list of integers
+        grid (list): list of list of integers
     """
     perimeter = 0
     height = len(grid)
@@ -29,5 +27,4 @@ def island_perimeter(grid):
                 ]
                 perimeter += sum([1 if v == 0 else 0 for v in sides])
 
-
-return perimeter
+    return perimeter
