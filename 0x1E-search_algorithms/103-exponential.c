@@ -37,7 +37,7 @@ int _binary_search(int *array, size_t left, size_t right, int value)
 
 /**
  * exponential_search - Searches for a vlue in a sorted array
- * @array; pointer to the array
+ * @array:` pointer to the array
  * @size: size of array
  * @value: value to search for
  *
