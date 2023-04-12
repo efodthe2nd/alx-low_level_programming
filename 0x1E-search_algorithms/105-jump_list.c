@@ -2,7 +2,7 @@
 
 /**
  * jump_list - Searches for an algorithm in a list
- * @list: pointer to the head 
+ * @list: pointer to the head
  * @size: number of nodes in  list
  * @value: value to search for
  *
